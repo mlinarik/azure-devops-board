@@ -10,7 +10,6 @@ This Python script adds epics to the pied_piper team board in the test project o
 ## Usage
 Run the script with Python:
 ```
-C:/Users/jeff/AppData/Local/Microsoft/WindowsApps/python3.8.exe add_epic.py
 ```
 
 ## Customization
