@@ -4,9 +4,9 @@ import base64
 from datetime import datetime
 
 # Set these values
-AZURE_ORG = os.getenv('AZURE_ORG', 'evil-corp')
-AZURE_PROJECT = os.getenv('AZURE_PROJECT', 'Pied-Piper')
-AZURE_TEAM = os.getenv('AZURE_TEAM', 'pied_piper')
+AZURE_ORG = os.getenv('AZURE_ORG', 'ORG_NAME')
+AZURE_PROJECT = os.getenv('AZURE_PROJECT', 'PROJECT_NAME')
+AZURE_TEAM = os.getenv('AZURE_TEAM', 'TEAM_NAME')
 AZURE_PAT = 'xxx'  # Replace with your Personal Access Token
 
 API_URL = f"https://dev.azure.com/{AZURE_ORG}/{AZURE_PROJECT}/_apis/wit/workitems/$Epic?api-version=7.0"
